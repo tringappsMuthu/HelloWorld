@@ -30,7 +30,7 @@ gym(
  export_method: "development",
 )
 hockey(
-  api_token: "33e3b96753004e339d17e73b33de2438",
+  api_token: "afc2a7618ba84ca59b5b0d4405f68785",
   ipa: "./HelloWorld.ipa",
   notes: "First build from fast lane"
 )
