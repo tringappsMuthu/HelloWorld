@@ -23,4 +23,17 @@ platform :ios do
     print("lane executed successfully")
   end
 
+lane :uploadBuildToHockeyApp do 
+
+gym(
+ scheme: "HelloWorld",
+ export_method: "development",
+)
+hockey(
+  api_token: "33e3b96753004e339d17e73b33de2438",
+  ipa: "./HelloWorld.ipa",
+  notes: "First build from fast lane"
+)
+end
+
 end
